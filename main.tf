@@ -44,8 +44,5 @@ resource "google_compute_instance" "myinstance-m" {
   service_account {
     scopes = ["userinfo-email", "compute-ro", "storage-ro"]
   }
-
- 
-
-
 }
+//end
